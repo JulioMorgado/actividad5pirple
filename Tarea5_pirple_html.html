@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Cambié el nombre del título y le agregué una imagen con referencia al tema de la página-->  
+    <title> Marxismo revolucionario</title>
+    <link rel="icon" ,="" type="image/jpg" href="https://th.bing.com/th/id/R.0abace231355d25cb764ffa2a92bab1c?rik=rQVFp89c2Tn57Q&amp;riu=http%3a%2f%2fwww.internationalist.org%2fblkonred4.gif&amp;ehk=yO1bcB7jXGuZy93REQrRWIynXh%2fSFjYI07yiHbVi4jI%3d&amp;risl=&amp;pid=ImgRaw">
+    
+    
+    <!-- Aplico para cada encabezado h1 un emoji referente al tema de la página--><!--<base href="https://www.gettyimages.com.mx/fotos/"> -->
+    
+</head>
+<style>
+
+    h1::before  {
+        content: "\0262D";
+}
+/*Para realizar el comentario en style es diferente a hacerlo en el head
+Aqui le pido que todos los encabezados h2 y los párrafos <p> tengan la letra color roja
+    Y le pido que todos los párrafos con un <strong> anidado, sus letras sean negras */  
+
+    h2, p {color: red}
+    p strong {color: black}
+
+    
+
+    h4 { font-style: italic } 
+    .clase_azul{color:blue}
+
+   [class="mujer"] {color: purple;} 
+
+   /*Este elemento enmarca la apertura <div> con la especificación de tener el cuadro dichas medidas*/
+   div {
+border: 1px solid black;
+margin-top: 20px;
+margin-bottom: 200px;
+margin-right: 200px;
+margin-left: 200px;
+background-color: rgb(250, 62, 56);}
+
+
+
+</style>
+<body>
+     <!--Se ingresó la imagen directo de internet, por no poder solucionar <base> desde la página de getty images.-->
+     <img src="https://th.bing.com/th/id/OIP.69DXfAh-1Rx84UXOtwobSwHaD-?pid=ImgDet&amp;rs=1">
+     <h1> Marxismo revolucionario </h1>
+     <p>
+         “Las charlatanerías de toda especie según las cuales las condiciones históricas no están <br>
+         todavía <strong> ‘maduras’</strong> para el socialismo no son sino el producto de la ignorancia o de un engaño consciente.<br>
+         Las condiciones objetivas de la revolución proletaria no sólo están maduras sino que han empezado a pudrirse...<br>
+          La crisis histórica de la humanidad se reduce a la crisis histórica de la dirección revolucionaria.”<br>
+         -León Trotsky, El programa de transición. <br><br>
+         
+     </p>
+ 
+     <!--Desde el style se modificó el contenido con class para diferenciar texto referente a la lucha de las mujeres obreras-->
+     <h1 class="mujer"> Mujer revolucionaria </h1> 
+     <p class="mujer"> Seguir mi camino, trabajar, luchar, crear lado a lado con los hombres y aspirar a un objetivo <br>
+         universal humano (hace ya casi treinta años que me cuento en el número de los comunistas) <br>
+         construyendo al mismo tiempo mi vida personal e íntima como mujer, según mi propia voluntad <br>
+         y las leyes innatas de mi naturalieza: tales son los postulados que han condicionado mi ideario. <br>
+         -Alexandra Kollontai, Autobiografía de una mujer emancipada. <br><br>
+ 
+     </p>
+     <!--Se ingresó el audio de la dirigente obrera Kollontai-->
+     <h3 class="mujer"> Discurso de Alexandra Kollontai </h3> 
+     <audio controls src="https://www.marxists.org/archive/kollonta/audio/to-the-workers.mp3"  ></audio> <br><br><br><br><br><br>
+ 
+     
+     <!--Se agregó una página con contenido similar al nuestro, que se abre en una nueva pestaña-->
+     <h4 class="clase_azul"> Páginas con contenido que te puede interesar</h4>
+ 
+     <a href="http://www.internationalist.org/indice.html" target="_blank">Grupo Internacionalista-LIVI</a><br><br>
+ 
+     <div>No olvides escuchar el programa de radio Frecuencia Obrera Internacionalista.<br>
+         El cual se transmite todos los martes por Radio Plantón .</div>  <br><br><hr> 
+ 
+ <!-- Se agregó el video "Discurso de Trotsky acerca de los juicios de Stalin"-->
+     <h1> Video destacado de la semana </h1>
+     <iframe src="https://www.youtube.com/embed/_z-sVPl04OM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+ 
+</body>
+</html>
